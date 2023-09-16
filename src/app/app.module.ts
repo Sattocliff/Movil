@@ -12,11 +12,12 @@ import {MatListModule} from '@angular/material/list';
 import { MatFormFieldModule } from '@angular/material/form-field';
 import { MatInputModule } from '@angular/material/input';
 import {MatButtonModule} from '@angular/material/button';
+import {MatCardModule} from '@angular/material/card';
 
 
 @NgModule({
   declarations: [AppComponent],
-  imports: [BrowserModule,MatSlideToggleModule,MatButtonModule, IonicModule.forRoot(), AppRoutingModule, MatListModule, MatDividerModule, MatFormFieldModule,MatInputModule],
+  imports: [BrowserModule,MatSlideToggleModule,MatCardModule, MatButtonModule, IonicModule.forRoot(), AppRoutingModule, MatListModule, MatDividerModule, MatFormFieldModule,MatInputModule],
   providers: [{ provide: RouteReuseStrategy, useClass: IonicRouteStrategy }],
   bootstrap: [AppComponent],
 })

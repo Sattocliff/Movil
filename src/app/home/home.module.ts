@@ -6,6 +6,7 @@ import { HomePage } from './home.page';
 import { MatSlideToggleModule } from '@angular/material/slide-toggle';
 import {MatDividerModule} from '@angular/material/divider';
 import {MatListModule} from '@angular/material/list';
+import {MatCardModule} from '@angular/material/card';
 
 
 import { HomePageRoutingModule } from './home-routing.module';
@@ -19,6 +20,7 @@ import { HomePageRoutingModule } from './home-routing.module';
     HomePageRoutingModule,
     MatSlideToggleModule,
     MatDividerModule,
+    MatCardModule,
     MatListModule
   ],
   declarations: [HomePage]
